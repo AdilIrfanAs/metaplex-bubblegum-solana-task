@@ -22,7 +22,6 @@ import {
   keypairIdentity,
   CreateNftOutput,
 } from "@metaplex-foundation/js"
-import { assert } from "chai"
 import { PROGRAM_ID as TOKEN_METADATA_PROGRAM_ID } from "@metaplex-foundation/mpl-token-metadata"
 
 describe("anchor-compressed-nft", () => {
